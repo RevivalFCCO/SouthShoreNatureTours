@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Shore Nature Tours</title>
+
+    <link rel="stylesheet" href="style.css">
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #1f1f1f;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+
+    background-color: #1f3b2d;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url('images/hero.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 1rem 2rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #b22222;
+    color: white;
+
+    cursor: pointer;
+}
+
+.features,
+.about,
+.spotlight,
+.contact {
+    padding: 5rem 2rem;
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.card {
+    flex: 1;
+
+    padding: 2rem;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    padding: 2rem;
+
+    text-align: center;
+
+    background-color: #1f3b2d;
+    color: white;
+}
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">South Shore Nature Tours</div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Field Notes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore Ontario’s South Shore</h1>
+
+            <p>
+                Guided nature experiences rooted in
+                conservation, education, and connection.
+            </p>
+
+            <button>Explore Experiences</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Featured Experiences</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Shoreline Walks</h3>
+                <p>Explore the beauty of Ontario’s south shore.</p>
+            </div>
+
+            <div class="card">
+                <h3>Wildlife Spotting</h3>
+                <p>Discover birds, wetlands, and Carolinian ecology.</p>
+            </div>
+
+            <div class="card">
+                <h3>Educational Tours</h3>
+                <p>Learn about conservation and local ecosystems.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About</h2>
+
+        <p>
+            Connecting people with the unique ecosystems of
+            Southern Ontario through guided outdoor experiences,
+            education, and conservation awareness.
+        </p>
+    </section>
+
+    <section class="spotlight">
+        <h2>Nature Spotlight</h2>
+
+        <p>
+            Seasonal field notes, wildlife highlights, and
+            conservation education from Ontario’s south shore.
+        </p>
+    </section>
+
+    <section class="contact">
+        <h2>Get In Touch</h2>
+
+        <button>Contact</button>
+    </section>
+
+    <footer>
+        <p>© 2026 South Shore Nature Tours</p>
+    </footer>
+
+</body>
+</html>
