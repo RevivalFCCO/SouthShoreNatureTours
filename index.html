@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>South Shore Nature Tours</title>
 
-    <!-- Embedded CSS -->
     <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -22,31 +25,27 @@
 
         header {
             background-color: #1f3b2d;
-            color: white;
-            padding: 1rem 2rem;
         }
 
         .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-        padding: 1rem 2rem;
-        background-color: #1f3b2d;
-       }
+            padding: 1rem 2rem;
+        }
+
+        .logobanner-img {
+            height: 35px;
+            width: auto;
+            display: block;
+        }
 
         .nav-links {
-        display: flex;
-        gap: 2rem;
+            display: flex;
+            gap: 2rem;
 
-        list-style: none;
-        margin: 0;
-        padding: 0;
-       }
-        .logo-img {
-         height: 35px;
-         width: auto;
-         display: block;
+            list-style: none;
         }
 
         .nav-links a {
@@ -56,168 +55,262 @@
         }
 
         .hero {
-            height: 70vh;
+            position: relative;
+
+            height: 75vh;
+
             display: flex;
             justify-content: center;
             align-items: center;
+
             text-align: center;
-            background:
-                linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                url('pageheader.jpg') no-repeat center center;
-            background-size: cover;
+
             color: white;
+
+            background:
+                linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+                url("pageheader.jpg");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            max-width: 700px;
+            padding: 2rem;
         }
 
         .hero h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             margin-bottom: 1rem;
         }
 
         .hero p {
-            max-width: 600px;
-            margin: 0 auto 2rem auto;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
         }
 
         .hero button {
             padding: 1rem 2rem;
+
             border: none;
             border-radius: 5px;
+
             background-color: #b22222;
             color: white;
-            cursor: pointer;
+
             font-size: 1rem;
+
+            cursor: pointer;
+        }
+
+        .photo-credit {
+            position: absolute;
+
+            bottom: 20px;
+            right: 20px;
+
+            color: rgba(255,255,255,0.8);
+
+            font-size: 0.8rem;
+            font-style: italic;
         }
 
         section {
-            padding: 4rem 2rem;
             max-width: 1200px;
             margin: auto;
+
+            padding: 5rem 2rem;
+        }
+
+        h2 {
+            margin-bottom: 2rem;
+            color: #1f3b2d;
         }
 
         .cards {
             display: flex;
             gap: 2rem;
-            margin-top: 2rem;
             flex-wrap: wrap;
         }
 
         .card {
             flex: 1 1 300px;
+
             background-color: white;
+
             padding: 2rem;
+
             border-radius: 10px;
+
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        h2 {
-            margin-bottom: 1.5rem;
-            color: #1f3b2d;
-        }
-
         footer {
-            padding: 2rem;
-            text-align: center;
             background-color: #1f3b2d;
             color: white;
+
+            text-align: center;
+
+            padding: 3rem 2rem;
         }
-        .hero {
-    position: relative;
-}
-      .photo-credit {
-    position: absolute;
 
-    bottom: 20px;
-    right: 20px;
+        .footer-logo {
+            max-width: 400px;
+            width: 100%;
 
-    color: rgba(255,255,255,0.8);
+            margin-bottom: 1rem;
+        }
 
-    font-size: 0.8rem;
-    font-style: italic;
-}  
-        .logobanner-img {
-    height: 35px;
-    width: auto;
-}
     </style>
+
 </head>
+
 <body>
 
-    <nav class="navbar">
-    <div class="logobanner">
-        <img src="logobanner.png" alt="South Shore Nature Tours Logo" class="logobanner-img">
-    </div>
+    <header>
 
-    <ul class="nav-links">
-        ...
-    </ul>
-    </nav>
+        <nav class="navbar">
 
-    <ul class="nav-links">
+            <div class="logo">
+
+                <img
+                    src="logobanner.png"
+                    alt="South Shore Nature Tours Logo"
+                    class="logobanner-img"
+                >
+
+            </div>
+
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Experiences</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#">Field Notes</a></li>
                 <li><a href="#">Contact</a></li>
+
             </ul>
+
         </nav>
+
     </header>
 
     <section class="hero">
 
-    <div>
-        <h1>Explore Ontario’s South Shore</h1>
+        <div class="hero-content">
 
-        <p>
-            Guided nature experiences rooted in conservation,
-            education, and connection.
-        </p>
+            <h1>Explore Ontario’s South Shore</h1>
 
-        <button>Explore Experiences</button>
-    </div>
+            <p>
+                Guided nature experiences rooted in conservation,
+                education, and connection.
+            </p>
 
-    <div class="photo-credit">
-        Photography courtesy of Lucas Van Troost
-    </div>
+            <button>
+                Explore Experiences
+            </button>
 
-</section>
+        </div>
+
+        <div class="photo-credit">
+            Photography courtesy of Lucas Van Troost
+        </div>
+
+    </section>
 
     <section class="features">
+
         <h2>Featured Experiences</h2>
+
         <div class="cards">
+
             <div class="card">
+
                 <h3>Shoreline Walks</h3>
-                <p>Explore the beauty of Ontario’s south shore.</p>
+
+                <p>
+                    Explore the beauty of Ontario’s south shore.
+                </p>
+
             </div>
+
             <div class="card">
+
                 <h3>Wildlife Spotting</h3>
-                <p>Discover birds, wetlands, and Carolinian ecology.</p>
+
+                <p>
+                    Discover birds, wetlands, and Carolinian ecology.
+                </p>
+
             </div>
+
             <div class="card">
+
                 <h3>Educational Tours</h3>
-                <p>Learn about conservation and local ecosystems.</p>
+
+                <p>
+                    Learn about conservation and local ecosystems.
+                </p>
+
             </div>
+
         </div>
+
     </section>
 
     <section class="about">
+
         <h2>About</h2>
-        <p>Connecting people with the unique ecosystems of Southern Ontario through guided outdoor experiences, education, and conservation awareness.</p>
+
+        <p>
+            Connecting people with the unique ecosystems of Southern Ontario
+            through guided outdoor experiences, education, and conservation awareness.
+        </p>
+
     </section>
 
     <section class="spotlight">
+
         <h2>Nature Spotlight</h2>
-        <p>Seasonal field notes, wildlife highlights, and conservation education from Ontario’s south shore.</p>
+
+        <p>
+            Seasonal field notes, wildlife highlights, and conservation
+            education from Ontario’s south shore.
+        </p>
+
     </section>
 
     <section class="contact">
+
         <h2>Get In Touch</h2>
-        <button>Contact</button>
+
+        <button>
+            Contact
+        </button>
+
     </section>
 
     <footer>
-        <p>© 2026 South Shore Nature Tours</p>
+
+        <img
+            src="logobanner.png"
+            alt="South Shore Nature Tours Logo"
+            class="footer-logo"
+        >
+
+        <p>
+            Explore • Learn • Protect
+        </p>
+
+        <br>
+
+        <p>
+            © 2026 South Shore Nature Tours
+        </p>
+
     </footer>
 
 </body>
+
 </html>
