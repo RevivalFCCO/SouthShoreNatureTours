@@ -26,10 +26,10 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
 }
 
 .logobanner-img {
@@ -45,10 +45,11 @@ header {
     list-style: none;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.nav-links {
+    display: flex;
+    gap: 3rem;
+
+    list-style: none;
 }
 
 /* HERO */
