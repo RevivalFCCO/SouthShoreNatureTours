@@ -37,6 +37,11 @@ header {
     width: auto;
     display: block;
 }
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
 
 .nav-links a {
     display: inline-block;
