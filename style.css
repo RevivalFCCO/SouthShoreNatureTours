@@ -266,6 +266,28 @@ footer {
     background-color: #8b1a1a;
     transform: translateY(-2px);
 }
+.construction-page {
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 8rem 2rem;
+}
+
+.construction-page h1 {
+    color: #1f3b2d;
+    margin-bottom: 1rem;
+}
+
+.construction-page p {
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+}
 }
 
 /* MOBILE */
