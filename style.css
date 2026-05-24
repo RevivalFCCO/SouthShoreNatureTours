@@ -58,9 +58,6 @@ header {
 
     padding: 1.2rem 2rem;
 }
-<button class="menu-toggle" aria-label="Open navigation">
-    ☰
-</button>
 
 .nav-links {
     display: flex;
