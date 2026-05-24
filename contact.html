@@ -38,7 +38,9 @@
 <header>
 
     <nav class="navbar">
-
+<button class="menu-toggle" aria-label="Open navigation">
+☰
+</button>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Experiences</a></li>
@@ -119,7 +121,14 @@
     </p>
 
 </footer>
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
 
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+});
+</script>
 </body>
 
 </html>
