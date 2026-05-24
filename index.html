@@ -167,7 +167,14 @@
     </p>
 
 </footer>
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
 
-</body>
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+});
+</script>
+</body>    
 
 </html>
