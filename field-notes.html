@@ -1,30 +1,87 @@
-<section class="field-notes-page">
+<!DOCTYPE html>
+<html lang="en">
 
-    <h1>Field Notes</h1>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZQPD735HN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XZQPD735HN');
+    </script>
 
-    <p class="field-notes-intro">
-        Observations, reflections, and educational notes from Southern Ontario’s forests, wetlands, and shorelines.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Notes | South Shore Nature Tours</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <button class="menu-toggle" aria-label="Open navigation">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="coming-soon.html">Experiences</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="field-notes.html">Field Notes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+
+
+    <p style="text-align: center;">
+        <a href="field-notes-1.html" class="button-link">
+            Read Field Notes
+        </a>
     </p>
 
-    <article class="field-note-card">
-        <p class="field-note-date">April 22, 2026</p>
+</article>
 
-        <h2>
-            <a href="field-notes-1.html">
-                Birdwatching and Understanding the Environment (Essay)
-            </a>
-        </h2>
+</main>
 
-        <p>
-            Birdwatching can turn abstract noise and colour into personal experience,
-            helping us better understand ecology, conservation, and preservation.
-        </p>
+<footer>
 
-        <a href="field-notes-1.html" class="button-link">
-        </a>
-    </article>
+    <img
+        src="botlogo.png"
+        alt="South Shore Nature Tours Logo"
+        class="footer-logo"
+    >
 
-</section>
+    <p class="footer-text">
+        Explore • Learn • Protect
+    </p>
+
+    <p class="copyright">
+        © 2026 South Shore Nature Tours
+    </p>
+
+</footer>
+
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+});
+</script>
+
+</body>
+
+</html>
 
 
 
