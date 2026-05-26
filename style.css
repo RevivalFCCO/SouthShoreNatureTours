@@ -410,7 +410,31 @@ footer {
 .field-note-card p {
     margin-bottom: 1.5rem;
 }
+.field-note-article {
+    max-width: 850px;
+    margin: auto;
+    padding: 8rem 2rem 5rem;
 
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.field-note-article h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #1f3b2d;
+}
+
+.field-note-article p {
+    margin-bottom: 1.5rem;
+}
+.button-link,
+.button-link:visited,
+.button-link:hover,
+.button-link:active {
+    color: white;
+    text-decoration: none;
+}
 /* =========================
    MOBILE
 ========================= */
