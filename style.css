@@ -348,6 +348,68 @@ footer {
     font-size: 0.9rem;
     opacity: 0.7;
 }
+/* =========================
+   FIELD NOTES PAGE
+========================= */
+
+.field-notes-page {
+    max-width: 950px;
+    margin: auto;
+    padding: 8rem 2rem 5rem;
+}
+
+.field-notes-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1f3b2d;
+}
+
+.field-notes-intro {
+    max-width: 700px;
+    margin-bottom: 3rem;
+
+    font-size: 1.15rem;
+    color: #3f4a3f;
+}
+
+.field-note-card {
+    background: #fffaf0;
+
+    border-left: 6px solid #1f3b2d;
+    border-radius: 10px;
+
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.field-note-date {
+    margin-bottom: 0.5rem;
+
+    color: #8a5a2b;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.field-note-card h2 {
+    margin-bottom: 1rem;
+}
+
+.field-note-card h2 a {
+    color: #1f3b2d;
+    text-decoration: none;
+}
+
+.field-note-card h2 a:hover {
+    color: #4f7a5c;
+}
+
+.field-note-card p {
+    margin-bottom: 1.5rem;
+}
 
 /* =========================
    MOBILE
