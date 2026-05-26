@@ -1,3 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZQPD735HN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XZQPD735HN');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birdwatching and Understanding The Environment | South Shore Nature Tours</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <button class="menu-toggle" aria-label="Open navigation">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="coming-soon.html">Experiences</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="field-notes.html">Field Notes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
 <article class="field-note-article">
 
     <p class="field-note-date">
@@ -35,3 +77,37 @@
     </p>
 
 </article>
+
+</main>
+
+<footer>
+
+    <img
+        src="footerlogo.png"
+        alt="South Shore Nature Tours Logo"
+        class="footer-logo"
+    >
+
+    <p class="footer-text">
+        Explore • Learn • Protect
+    </p>
+
+    <p class="copyright">
+        © 2026 South Shore Nature Tours
+    </p>
+
+</footer>
+
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+});
+</script>
+
+</body>
+
+</html>
+
